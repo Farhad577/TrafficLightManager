@@ -11,7 +11,7 @@ class CompanyNameRoot extends StatelessWidget {
         color: Colors.blue,
         child: Center(
           child: Text(
-            'Наша технологическая компания',
+            'Наша технологическая компания...',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
