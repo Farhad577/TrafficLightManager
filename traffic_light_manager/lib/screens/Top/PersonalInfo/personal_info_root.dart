@@ -33,8 +33,18 @@ class PersonalInfoRoot extends StatelessWidget {
                     ),
                     Expanded(
                       child: Container(
-                        color: Colors.deepPurpleAccent,
-                      ),
+                          color: Colors.deepPurpleAccent,
+                          child: const Center(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                SizedBox(height: 20),
+                                Text('Иванов'),
+                                Text('Михайл Вячасловович'),
+                                SizedBox(height: 20),
+                              ],
+                            ),
+                          )),
                     ),
                   ],
                 ),
